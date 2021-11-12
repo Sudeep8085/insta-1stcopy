@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block title%}{% endblock %}
+
+
+{% block body %}
+<div class="mtp-5"></div>
+
+<div class="m-auto w-50 shadow p-4">
+    <h2 class="text-center">Register Now</h2>
+</div>
+<form method="post">
+   <div class="form-group">
+       <button type="submit" class="btn btn-primary w-100">Register</button>
+   </div>
+    <div>
+        <h4 class="">I have accountes</h4>
+        <a href="{% url 'login' %}">login here</a>
+    </div>
+</form>
+{% endblock %}
